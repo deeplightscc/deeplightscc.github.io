@@ -12,6 +12,6 @@
   The DeepLight application takes 1 second of video at 120FPS and sends it to a server to decode using DeepLight full system (including DeepLight Screen Extractor and DeepLight Decoder). 
   The server will send the text result (Alice in Wonder Land) back to the iPhone after processing it.<br>
   Currently, the long delay is caused by the transmission time. As we use MJPG video at the highest quality, the video size is still large (though we use 1280x720 resolution to reduce the size).
-  Recently, iPhone can run MobileNet in real-time, so we believe that it can easily run DeepLight in real-time <br>
+  DeepLight (entire pipeline) achieves ~15FPS on our desktop. The LightNet (Bit decoder) achieves ~30FPS. Recently, iPhone can run MobileNet in real-time, so we believe that it can easily run DeepLight in real-time <br>
 </body>
 </html>
